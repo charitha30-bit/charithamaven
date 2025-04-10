@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/charitha30-bit/charithamaven.git
+                git branch: 'master', url: 'https://github.com/charitha30-bit/charithamaven.git'
 '
             }
         }
